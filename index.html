@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Trivia de Fernet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trivia de Fernet</h1>
+        <div id="score">Vasos de Fernet: <span id="fernet">200</span></div>
+        <div id="hint"></div>
+        <div id="word-container"></div>
+        <div id="keyboard"></div>
+        <div class="controls">
+            <button onclick="deleteLastLetter()">← Borrar</button>
+            <button onclick="resetInput()">✖ Limpiar</button>
+            <button onclick="getHint()">💡 Pista (-20)</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
